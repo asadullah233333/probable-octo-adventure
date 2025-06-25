@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CFB Trader Login</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #001f3f;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-box {
+      background: #003366;
+      padding: 30px;
+      border-radius: 10px;
+      width: 300px;
+      text-align: center;
+    }
+    .login-box h2 {
+      margin-bottom: 20px;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+    }
+    .btn {
+      background-color: #004080;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #0059b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h2>CFB Trader</h2>
+    <form action="dashboard.html">
+      <input type="text" placeholder="Username" required><br>
+      <input type="password" placeholder="Password" required><br>
+      <button class="btn" type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>
